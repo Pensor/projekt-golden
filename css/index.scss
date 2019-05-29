@@ -1,0 +1,31 @@
+$primary: #d5b136;
+
+@import "../lib/bootstrap-4.3.1/scss/bootstrap.scss";
+
+.page-header {
+    background: url("../img/background-dark.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.navbar .navbar-brand {
+    color: $primary;
+    font-style: italic;
+    padding-top: 0.15rem;
+}
+
+.header-jumbotron {
+    background-color: transparent;
+    color: white;
+}
+    h2 {
+        font-style: italic;
+        font-size: 40px;
+    }
+
+    h1 {
+        font-size: 75px;
+        text-transform: uppercase;
+    }
+    
