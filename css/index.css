@@ -10599,16 +10599,20 @@ a.text-dark:hover, a.text-dark:focus {
 
 .header-jumbotron h2 {
   font-style: italic;
-  /*font-size: 40px;*/
+  font-size: 2.5rem;
 }
 
 .header-jumbotron h1 {
-  /*font-size: 75px;*/
+  font-size: 4rem;
   text-transform: uppercase;
 }
 
 .services {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+h3 {
+  font-size: 2.5rem;
 }
 /*# sourceMappingURL=index.css.map */
