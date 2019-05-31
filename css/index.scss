@@ -47,8 +47,20 @@ $section-padding: 120px;
 .services {
     padding-top: $section-padding;
     padding-bottom: $section-padding;
-}
 
     h3 {
         font-size: 2.5rem;
     }
+
+    .services-icon {
+        font-size: 2rem;
+        color: $primary;
+        line-height: 3.75rem;
+        width: 4rem;
+        height: 4rem;
+        margin: 0 auto 0.75rem auto;
+        border: 2px solid $primary;
+        border-radius: 50%;
+        text-align: center;
+    }
+}

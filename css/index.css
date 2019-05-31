@@ -10612,7 +10612,19 @@ a.text-dark:hover, a.text-dark:focus {
   padding-bottom: 120px;
 }
 
-h3 {
+.services h3 {
   font-size: 2.5rem;
+}
+
+.services .services-icon {
+  font-size: 2rem;
+  color: #d5b136;
+  line-height: 3.75rem;
+  width: 4rem;
+  height: 4rem;
+  margin: 0 auto 0.75rem auto;
+  border: 2px solid #d5b136;
+  border-radius: 50%;
+  text-align: center;
 }
 /*# sourceMappingURL=index.css.map */
