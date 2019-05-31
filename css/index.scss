@@ -1,4 +1,5 @@
 $primary: #d5b136;
+$header-jumbotron-height: 250px;
 
 @import "../lib/bootstrap-4.3.1/scss/bootstrap.scss";
 
@@ -6,7 +7,6 @@ $primary: #d5b136;
     background: url("../img/background-dark.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
 }
 
 .navbar .navbar-brand {
@@ -18,14 +18,27 @@ $primary: #d5b136;
 .header-jumbotron {
     background-color: transparent;
     color: white;
-}
+    height: $header-jumbotron-height;
+
+    @include media-breakpoint-up(sm) {
+        height: $header-jumbotron-height + 50px;
+    }
+
+    @include media-breakpoint-up(md) {
+        height: $header-jumbotron-height + 100px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        height: $header-jumbotron-height +150px;
+    }
+
     h2 {
         font-style: italic;
-        font-size: 40px;
+        /*font-size: 40px;*/
     }
 
     h1 {
-        font-size: 75px;
+        /*font-size: 75px;*/
         text-transform: uppercase;
     }
-    
+} 

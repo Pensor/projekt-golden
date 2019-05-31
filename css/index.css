@@ -10565,7 +10565,6 @@ a.text-dark:hover, a.text-dark:focus {
   background: url("../img/background-dark.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
 }
 
 .navbar .navbar-brand {
@@ -10577,15 +10576,34 @@ a.text-dark:hover, a.text-dark:focus {
 .header-jumbotron {
   background-color: transparent;
   color: white;
+  height: 250px;
 }
 
-h2 {
+@media (min-width: 576px) {
+  .header-jumbotron {
+    height: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-jumbotron {
+    height: 350px;
+  }
+}
+
+@media (min-width: 992px) {
+  .header-jumbotron {
+    height: 400px;
+  }
+}
+
+.header-jumbotron h2 {
   font-style: italic;
-  font-size: 40px;
+  /*font-size: 40px;*/
 }
 
-h1 {
-  font-size: 75px;
+.header-jumbotron h1 {
+  /*font-size: 75px;*/
   text-transform: uppercase;
 }
 /*# sourceMappingURL=index.css.map */
