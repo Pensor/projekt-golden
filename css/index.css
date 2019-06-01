@@ -10627,4 +10627,14 @@ a.text-dark:hover, a.text-dark:focus {
   border-radius: 50%;
   text-align: center;
 }
+
+.portfolio {
+  background-color: #f7f7f7;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.portfolio h3 {
+  font-size: 2.5rem;
+}
 /*# sourceMappingURL=index.css.map */

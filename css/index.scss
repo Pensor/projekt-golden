@@ -64,3 +64,13 @@ $section-padding: 120px;
         text-align: center;
     }
 }
+
+.portfolio {
+    background-color: #f7f7f7;
+    padding-top: $section-padding;
+    padding-bottom: $section-padding;
+
+    h3 {
+        font-size: 2.5rem;
+    }
+}
