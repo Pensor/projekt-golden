@@ -1,6 +1,6 @@
 $primary: #d5b136;
 $section-color: #f7f7f7;
-$header-jumbotron-height: 250px;
+$header-jumbotron-height: 300px;
 $section-padding: 120px;
 
 @import "../lib/bootstrap-4.3.1/scss/bootstrap.scss";
@@ -40,7 +40,7 @@ $section-padding: 120px;
     }
 
     h1 {
-        font-size: 4rem;
+        font-size: 3rem;
         text-transform: uppercase;
     }
 }
