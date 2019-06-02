@@ -1,4 +1,5 @@
 $primary: #d5b136;
+$section-color: #f7f7f7;
 $header-jumbotron-height: 250px;
 $section-padding: 120px;
 
@@ -66,7 +67,7 @@ $section-padding: 120px;
 }
 
 .portfolio {
-    background-color: #f7f7f7;
+    background-color: $section-color;
     padding-top: $section-padding;
     padding-bottom: $section-padding;
 
@@ -84,7 +85,26 @@ $section-padding: 120px;
     }
 
     .about-img {
-        border: 5px solid #f7f7f7;
+        border: 5px solid $section-color;
         border-radius: 50%;
+    }
+
+    @include media-breakpoint-up(md) {
+
+        .about-list {
+            background: linear-gradient(
+             to right,
+             white 0%,
+             white calc(50% - 1px),
+             $section-color calc(50% - 1px),
+             $section-color calc(50% + 1px),
+             white calc(50% + 1px),
+             white 100%
+             );
+
+             .row:last-child {
+                 background-color: white;
+             }
+        }
     }
 }
