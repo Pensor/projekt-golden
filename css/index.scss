@@ -1,5 +1,6 @@
 $primary: #d5b136;
-$header-jumbotron-height: 250px;
+$section-color: #f7f7f7;
+$header-jumbotron-height: 300px;
 $section-padding: 120px;
 
 @import "../lib/bootstrap-4.3.1/scss/bootstrap.scss";
@@ -39,7 +40,7 @@ $section-padding: 120px;
     }
 
     h1 {
-        font-size: 4rem;
+        font-size: 3rem;
         text-transform: uppercase;
     }
 }
@@ -66,11 +67,51 @@ $section-padding: 120px;
 }
 
 .portfolio {
+<<<<<<< HEAD
     background-color: #f7f7f7;
+=======
+    background-color: $section-color;
+>>>>>>> about-section
     padding-top: $section-padding;
     padding-bottom: $section-padding;
 
     h3 {
         font-size: 2.5rem;
     }
+<<<<<<< HEAD
+=======
+}
+
+.about {
+    padding-top: $section-padding;
+    padding-bottom: $section-padding;
+
+    h3 {
+        font-size:2.5rem;
+    }
+
+    .about-img {
+        border: 5px solid $section-color;
+        border-radius: 50%;
+    }
+
+    @include media-breakpoint-up(md) {
+
+        .about-list {
+            background: linear-gradient(
+             to right,
+             white 0%,
+             white calc(50% - 1px),
+             $section-color calc(50% - 1px),
+             $section-color calc(50% + 1px),
+             white calc(50% + 1px),
+             white 100%
+             );
+
+             .row:last-child {
+                 background-color: white;
+             }
+        }
+    }
+>>>>>>> about-section
 }
