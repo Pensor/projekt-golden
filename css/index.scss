@@ -133,3 +133,23 @@ $section-padding: 120px;
         height: 50px;
     }
 }
+
+.contact {
+    padding-top: $section-padding;
+    padding-bottom: $section-padding;
+    background-color: #222222;
+    color: white;
+    background: url(../img/background.contact.png);
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    .contact-message {
+
+        @include media-breakpoint-up(sm){
+            height: 100%;
+        }
+        
+    }
+}
