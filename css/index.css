@@ -10565,6 +10565,7 @@ a.text-dark:hover, a.text-dark:focus {
   background: url("../img/background-dark.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50% 0%;
 }
 
 .navbar .navbar-brand {
