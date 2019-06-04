@@ -10603,7 +10603,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .header-jumbotron h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   text-transform: uppercase;
 }
 
@@ -10702,5 +10702,16 @@ a.text-dark:hover, a.text-dark:focus {
   .contact .contact-message {
     height: 100%;
   }
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  letter-spacing: 5px;
+}
+
+footer a {
+  color: black;
+  font-size: 2.5rem;
 }
 /*# sourceMappingURL=index.css.map */
