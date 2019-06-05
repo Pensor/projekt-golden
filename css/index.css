@@ -10561,6 +10561,19 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+@font-face {
+  font-family: 'Wisdom Script Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Wisdom Script Regular"), url(../font/wisdom-script-aj.woff) format("woff");
+}
+
+body h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .page-header {
   background: url("../img/background-dark.png");
   background-repeat: no-repeat;
@@ -10568,10 +10581,14 @@ a.text-dark:hover, a.text-dark:focus {
   background-position: 50% 0%;
 }
 
+.navbar {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .navbar .navbar-brand {
   color: #d5b136;
-  font-style: italic;
-  padding-top: 0.15rem;
+  font-family: 'Wisdom Script Regular';
+  font-size: 26px;
 }
 
 .header-jumbotron {
@@ -10606,6 +10623,7 @@ a.text-dark:hover, a.text-dark:focus {
 .header-jumbotron h1 {
   font-size: 3.5rem;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .services {
@@ -10613,8 +10631,9 @@ a.text-dark:hover, a.text-dark:focus {
   padding-bottom: 120px;
 }
 
-.services h3 {
-  font-size: 2.5rem;
+.services h4 {
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .services .services-icon {
@@ -10623,7 +10642,7 @@ a.text-dark:hover, a.text-dark:focus {
   line-height: 3.75rem;
   width: 4rem;
   height: 4rem;
-  margin: 0 auto 0.75rem auto;
+  margin: 0 auto 1rem auto;
   border: 2px solid #d5b136;
   border-radius: 50%;
   text-align: center;
@@ -10635,17 +10654,9 @@ a.text-dark:hover, a.text-dark:focus {
   padding-bottom: 120px;
 }
 
-.portfolio h3 {
-  font-size: 2.5rem;
-}
-
 .about {
   padding-top: 120px;
   padding-bottom: 120px;
-}
-
-.about h3 {
-  font-size: 2.5rem;
 }
 
 .about .about-img {
@@ -10666,10 +10677,6 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: #f7f7f7;
   padding-top: 120px;
   padding-bottom: 120px;
-}
-
-.team h3 {
-  font-size: 2.5rem;
 }
 
 .team .team-img {
@@ -10693,10 +10700,6 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: #222222;
   color: white;
   background: url(../img/background.contact.png);
-}
-
-.contact h3 {
-  font-size: 2.5rem;
 }
 
 @media (min-width: 576px) {

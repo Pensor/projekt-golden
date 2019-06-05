@@ -5,6 +5,21 @@ $section-padding: 120px;
 
 @import "../lib/bootstrap-4.3.1/scss/bootstrap.scss";
 
+@font-face {
+    font-family: 'Wisdom Script Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Wisdom Script Regular'), url(../font/wisdom-script-aj.woff) format('woff');
+    }
+
+body {
+    h3 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
 .page-header {
     background: url("../img/background-dark.png");
     background-repeat: no-repeat;
@@ -12,10 +27,13 @@ $section-padding: 120px;
     background-position: 50% 0%;
 }
 
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+}
 .navbar .navbar-brand {
     color: $primary;
-    font-style: italic;
-    padding-top: 0.15rem;
+    font-family: 'Wisdom Script Regular';
+    font-size: 26px;
 }
 
 .header-jumbotron {
@@ -43,6 +61,7 @@ $section-padding: 120px;
     h1 {
         font-size: 3.5rem;
         text-transform: uppercase;
+        font-weight: bold;
     }
 }
 
@@ -50,8 +69,9 @@ $section-padding: 120px;
     padding-top: $section-padding;
     padding-bottom: $section-padding;
 
-    h3 {
-        font-size: 2.5rem;
+    h4 {
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
     }
 
     .services-icon {
@@ -60,7 +80,7 @@ $section-padding: 120px;
         line-height: 3.75rem;
         width: 4rem;
         height: 4rem;
-        margin: 0 auto 0.75rem auto;
+        margin: 0 auto 1rem auto;
         border: 2px solid $primary;
         border-radius: 50%;
         text-align: center;
@@ -68,22 +88,16 @@ $section-padding: 120px;
 }
 
 .portfolio {
+    
     background-color: $section-color;
     padding-top: $section-padding;
     padding-bottom: $section-padding;
 
-    h3 {
-        font-size: 2.5rem;
-    }
 }
 
 .about {
     padding-top: $section-padding;
     padding-bottom: $section-padding;
-
-    h3 {
-        font-size:2.5rem;
-    }
 
     .about-img {
         border: 5px solid $section-color;
@@ -115,10 +129,6 @@ $section-padding: 120px;
     padding-top: $section-padding;
     padding-bottom: $section-padding;
 
-    h3 {
-        font-size: 2.5rem;
-    }
-
     .team-img {
         border-radius: 50%;
         border: 5px solid white;
@@ -141,10 +151,6 @@ $section-padding: 120px;
     background-color: #222222;
     color: white;
     background: url(../img/background.contact.png);
-
-    h3 {
-        font-size: 2.5rem;
-    }
 
     .contact-message {
 
